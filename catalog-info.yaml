@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-entity"
+  description: "This is a demo entity"
+  annotations:
+    github.com/project-slug: emmaindal/demo-entity
+    backstage.io/techdocs-ref: url:https://github.com/emmaindal/demo-entity
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "emmaindal"
